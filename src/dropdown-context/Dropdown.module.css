@@ -1,0 +1,19 @@
+.dropdown {
+  position: relative;
+}
+
+.dropdown:hover>.options {
+  display: block;
+}
+
+.options {
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: lightgray;
+}
+
+.options>div:hover {
+  background-color: gray;
+}
